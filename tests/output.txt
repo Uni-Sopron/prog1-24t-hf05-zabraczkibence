@@ -1,0 +1,98 @@
+0 - Kilépés
+1 - Pénztáros mód
+2 - Admin mód
+Válasszon menüpontot: 1
+0 - Vissza a főmenübe
+1 - Új törzsvendég
+2 - Rendelés
+3 - Befizetés
+Válasszon menüpontot: 1
+Törzsvendég neve: Seres Nikolett
+Ilyen nevű vendég már létezik!
+0 - Vissza a főmenübe
+1 - Új törzsvendég
+2 - Rendelés
+3 - Befizetés
+Válasszon menüpontot: 1
+Törzsvendég neve: Inka Pál
+0 - Vissza a főmenübe
+1 - Új törzsvendég
+2 - Rendelés
+3 - Befizetés
+Válasszon menüpontot: 3
+0 - Vissza
+1 - Nagy Ivó Kálmán: 3000 Ft
+2 - Seres Nikolett: 4400 Ft
+3 - Bornemissza Gergely: -6000 Ft
+4 - Inka Pál: 0 Ft
+Válasszon vendéget: 4
+Befizetendő összeg: 2000
+0 - Vissza a főmenübe
+1 - Új törzsvendég
+2 - Rendelés
+3 - Befizetés
+Válasszon menüpontot: 2
+0 - Vissza
+1 - Nagy Ivó Kálmán: 3000 Ft
+2 - Seres Nikolett: 4400 Ft
+3 - Bornemissza Gergely: -6000 Ft
+4 - Inka Pál: 2000 Ft
+Válasszon vendéget: 3
+0 - Vissza
+1 - Csapolt Soproni: 120 Ft/dl
+2 - Soproni IPA: 700 Ft/doboz
+3 - Soproni Bivaly: 750 Ft/üveg
+Válasszon italt: 1
+Mennyiség dl egységben: -1
+Nemnegatív egész számot adjon meg!
+Mennyiség dl egységben: 500
+Nincs elég készlet! (A visszalépéshez adjon meg 0 mennyiséget.)
+Mennyiség dl egységben: 5
++600 Ft Bornemissza Gergely számlájára írva, egyenleg: -6600 Ft
+0 - Vissza
+1 - Nagy Ivó Kálmán: 3000 Ft
+2 - Seres Nikolett: 4400 Ft
+3 - Bornemissza Gergely: -6600 Ft
+4 - Inka Pál: 2000 Ft
+Válasszon vendéget: 0
+0 - Vissza a főmenübe
+1 - Új törzsvendég
+2 - Rendelés
+3 - Befizetés
+Válasszon menüpontot: 0
+0 - Kilépés
+1 - Pénztáros mód
+2 - Admin mód
+Válasszon menüpontot: 2
+0 - Vissza
+1 - Csapolt Soproni: 120 Ft/dl
+2 - Soproni IPA: 700 Ft/doboz
+3 - Soproni Bivaly: 750 Ft/üveg
+4 - Új ital hozzáadása
+Válasszon italt: 1
+name[Csapolt Soproni]: 
+unit[dl]: 
+price[120]: 130
+stock[295]: 500
+0 - Vissza
+1 - Csapolt Soproni: 130 Ft/dl
+2 - Soproni IPA: 700 Ft/doboz
+3 - Soproni Bivaly: 750 Ft/üveg
+4 - Új ital hozzáadása
+Válasszon italt: 4
+name[]: Dreher
+unit[]: doboz
+price[]: 720
+stock[]: 6
+0 - Vissza
+1 - Csapolt Soproni: 130 Ft/dl
+2 - Soproni IPA: 700 Ft/doboz
+3 - Soproni Bivaly: 750 Ft/üveg
+4 - Dreher: 720 Ft/doboz
+5 - Új ital hozzáadása
+Válasszon italt: 0
+0 - Kilépés
+1 - Pénztáros mód
+2 - Admin mód
+Válasszon menüpontot: 0
+Viszlát!
