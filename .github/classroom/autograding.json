@@ -3,47 +3,7 @@
     {
       "name": "0",
       "setup": "sudo -H pip3 install pytest",
-      "run": "pytest -k 0",
-      "input": "",
-      "output": "",
-      "comparison": "exact",
-      "timeout": 1,
-      "points": 1
-    },
-    {
-      "name": "1",
-      "setup": "sudo -H pip3 install pytest",
-      "run": "pytest -k 1",
-      "input": "",
-      "output": "",
-      "comparison": "exact",
-      "timeout": 1,
-      "points": 1
-    },
-    {
-      "name": "2",
-      "setup": "sudo -H pip3 install pytest",
-      "run": "pytest -k 2",
-      "input": "",
-      "output": "",
-      "comparison": "exact",
-      "timeout": 1,
-      "points": 1
-    },
-    {
-      "name": "3",
-      "setup": "sudo -H pip3 install pytest",
-      "run": "pytest -k 3",
-      "input": "",
-      "output": "",
-      "comparison": "exact",
-      "timeout": 1,
-      "points": 1
-    },
-    {
-      "name": "4",
-      "setup": "sudo -H pip3 install pytest",
-      "run": "pytest -k 4",
+      "run": "pytest",
       "input": "",
       "output": "",
       "comparison": "exact",
