@@ -35,8 +35,8 @@ def test_main():
 
         def fake_input(msg):
             print(msg, end="")
-            answer = inp.readline()
-            print(answer, end="")
+            answer = inp.readline().strip()
+            print(answer)
             return answer
 
         with patch("builtins.input", fake_input):
