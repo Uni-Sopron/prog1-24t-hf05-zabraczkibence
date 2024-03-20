@@ -1,19 +1,31 @@
-name: GitHub Classroom Workflow
-
-on:
-  - push
-  - workflow_dispatch
-
+name: Autograding Tests
+'on':
+- push
+- workflow_dispatch
+- repository_dispatch
 permissions:
   checks: write
   actions: read
   contents: read
-
 jobs:
-  build:
-    name: Autograding
+  run-autograding-tests:
     runs-on: ubuntu-latest
     if: github.actor != 'github-classroom[bot]'
     steps:
-      - uses: actions/checkout@v4
-      - uses: education/autograding@v1
+    - name: Checkout code
+      uses: actions/checkout@v4
+    - name: test_solution
+      id: test_solution
+      uses: education/autograding-command-grader@v1
+      with:
+        test-name: test_solution
+        setup-command: sudo -H pip3 install pytest
+        command: pytest
+        timeout: 1
+        max-score: 1
+    - name: Autograding Reporter
+      uses: education/autograding-grading-reporter@v1
+      env:
+        TEST_SOLUTION_RESULTS: "${{steps.test_solution.outputs.result}}"
+      with:
+        runners: test_solution
