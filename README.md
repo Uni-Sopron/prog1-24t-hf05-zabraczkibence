@@ -17,7 +17,7 @@ A program indulásakor jelenjen meg a főmenü:
 
 Ebben a módban lehet a törzsvendégek fogyasztását rögzíteni, a menü így néz ki:
 
-    0 - Vissza a főmenübe
+    0 - Vissza a főmenübe   
     1 - Új törzsvendég
     2 - Rendelés
     3 - Befizetés
